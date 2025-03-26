@@ -25,7 +25,6 @@ func gateway(ngo int, wait_n int) int {
 }
 
 func request() int {
-	rand.Seed(42)
 	v := rand.Intn(10)
 	time.Sleep(time.Duration(v) * time.Second)
 	fmt.Printf("Eu: %d\n", v)
@@ -34,7 +33,6 @@ func request() int {
 }
 
 func main() {
-	rand.Seed(42)
 	ngo := rand.Intn(10)
 	var wait_n int
 
