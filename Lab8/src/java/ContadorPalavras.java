@@ -1,16 +1,15 @@
 import java.io.*;
-import java.util.concurrent.*;
 
 public class ContadorPalavras {
     public static void main(String[] args) throws IOException {
 	    System.out.println("Lab8");
-        
+
         int count = 0;
-        
+
         for(String arg : args) {
             count += contarPalavras(arg);
         }
-    
+
         System.out.println("Soma de palavras: " + count);
 
     }

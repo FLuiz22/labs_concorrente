@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.*;
 
 public class ContadorPalavras2 {
     public static void main(String[] args) throws IOException, InterruptedException {
