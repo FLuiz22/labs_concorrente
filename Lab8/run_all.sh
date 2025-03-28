@@ -2,8 +2,11 @@
 
 args=`find dataset -type f | xargs`
 
-echo "Building Java Concurrent implementation"
+echo "Building Java Serial/Concurrent implementation"
 bash src/java/build.sh
 
-echo "Running Concurrent implementation"
+echo "Running Serial implementation"
 time bash src/java/run.sh $args
+
+echo "Running Concurrent implementation 1"
+time bash src/java/run2.sh $args
