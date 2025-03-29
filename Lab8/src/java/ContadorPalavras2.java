@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ContadorPalavras2 {
     public static void main(String[] args) throws IOException, InterruptedException {
-	    System.out.println("Lab8");
+	    System.out.println("Lab8 - 2");
         
         int count = 0;
         

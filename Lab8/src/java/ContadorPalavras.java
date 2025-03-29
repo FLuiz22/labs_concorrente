@@ -2,7 +2,7 @@ import java.io.*;
 
 public class ContadorPalavras {
     public static void main(String[] args) throws IOException {
-	    System.out.println("Lab8");
+	    System.out.println("Lab8 - 1");
 
         int count = 0;
 

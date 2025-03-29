@@ -1,8 +1,8 @@
 #!/bin/bash
 
-nfiles=20
+nfiles=100
 nlines_per_file=20
-nwords_per_line=42
+nwords_per_line=12
 outputdir="dataset"
 
 function rnd_str () {
