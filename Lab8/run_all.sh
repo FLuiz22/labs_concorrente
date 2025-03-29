@@ -19,3 +19,6 @@ time bash src/java/run3_2.sh $args
 
 echo "Running Concurrent implementation 2.3"
 time bash src/java/run3_3.sh $args
+
+echo "Running Concurrent implementation 3"
+time bash src/java/run4.sh $args
