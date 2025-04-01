@@ -1,0 +1,7 @@
+Caso o tempo de atraso do consumidor e produtor sejam similares
+não haverá uma diferença significativa na saída, enquanto que, se o
+atraso do consumidor seja maior, o produtor irá gerar números o bastante
+para que a estrutura PriorityBlockingQueue aplique a organização sob os
+números de maneira que os valores sejam agrupados, assim, por exemplo,
+o número 1 será inserido sempre no começo, gerando uma repetição do
+valor na saída quando o consumidor executar o poll().

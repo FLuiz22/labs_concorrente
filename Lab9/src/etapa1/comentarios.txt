@@ -1,0 +1,11 @@
+Caso 1 - Tempo de espera do produtor maior que o do consumidor:
+    Quando a espera do produtor é maior que a do consumidor significa dizer que
+    o produtor leva mais tempo para produzir do que o consumidor consome, ou seja,
+    o consumidor deverá esperar além do seu tempo de espera sendo bloqueado até
+    que o produtor gere um número para ser consumido;
+
+Caso 2 - Tempo de espera do consumidor maior que o do produtor:
+    Quando a espera do consumidor é maior que a do produtor significa dizer que
+    o produtor gera mais rápido do que o consumidor é capaz de consumir, ou seja,
+    em algum momento o array pode ficar cheio, assim, o produtor será bloqueado até
+    que algum dado seja consumido;

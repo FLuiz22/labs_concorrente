@@ -1,0 +1,7 @@
+Caso o produtor possua um tempo maior de espera do que o consumidor,
+ele poderá terminar a geração dos números mais rápido do que é consumido,
+mas o consumidor continuará ativo pois os números ainda estão lá, encerrando suas
+atividades apenas quando ocorrer o timeout no poll(). Analogamente, caso o consumidor
+seja mais rápido do que o produtor, a depender do tempo de espera, poderá ocorrer o
+encerramento do consumidor devido ao timeout de 600ms, logo, o produtor continuará sua execução
+até produzir os 10000 números, mas eles não serão consumidos.
